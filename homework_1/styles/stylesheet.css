@@ -1,9 +1,9 @@
 @import "./resetCss.css";
 
-body {
-    background-color: #2f2f2f;
-    font-family: Arial , sans-serif;
-}
+/*body {*/
+    /*background-color: #2f2f2f;*/
+    /*font-family: Arial , sans-serif;*/
+/*}*/
 
 .main-page {
     width: 100%;
