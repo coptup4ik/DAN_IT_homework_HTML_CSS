@@ -89,3 +89,17 @@ body {
 .content_btn:focus {
     outline: none;
 }
+
+.main-page__footer {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer__text {
+    font-weight: bolder;
+}
