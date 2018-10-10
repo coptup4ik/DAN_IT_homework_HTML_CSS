@@ -1,7 +1,7 @@
 @import "./resetCss.css";
 
 body {
-    font-family: Arial , sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .main-page {
@@ -12,27 +12,21 @@ body {
     margin: 0 auto;
 }
 
-.main-page__header {
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
-
 .main-page__nav {
-    width: 50%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    padding: 25px 100px;
 }
 
 .main-page__nav_item {
-    color:  #16a085;
+    color: #16a085;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     transform: scale(1);
     transition-duration: .5s;
+    margin: 0 35px;
 }
 
 .main-page__nav_item:hover {
@@ -49,9 +43,7 @@ body {
 .main-page__content {
     background-color: #f2f3f4;
     padding: 60px 110px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .content__header {
@@ -61,7 +53,7 @@ body {
 }
 
 .content__text {
-    color:  #373737;
+    color: #373737;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 35px;
@@ -70,13 +62,13 @@ body {
 
 .content_btn {
     border-radius: 3px;
-    background-color:  #16a085;
+    background-color: #16a085;
     border: none;
     text-transform: uppercase;
     color: white;
     font-size: 12px;
     line-height: .5;
-    padding: 15px 35px;
+    padding: 25px 45px;
     cursor: pointer;
 }
 
@@ -91,13 +83,10 @@ body {
 .main-page__footer {
     width: 100%;
     background-color: white;
-    height: 100px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 100px;
+    padding: 25px 100px;
 }
 
 .footer__text {
+    text-align: right;
     font-weight: bolder;
 }
