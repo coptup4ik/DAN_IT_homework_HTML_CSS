@@ -1,0 +1,83 @@
+@import "reset.css";
+@import "../fonts/font.css";
+
+body {
+    background-color: #373737;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.header__text {
+    font-size: 80px;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.header__text:first-letter {
+    text-transform: uppercase;
+}
+
+.header__item_blue {
+    color: #4bcaff;;
+}
+
+
+.menu__list {
+    background-color:  #35444f;
+    text-align: center;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__item {
+    color:  #ffffff;
+    font-size: 24px;
+    padding: 25px;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.menu__item:hover {
+    box-shadow: -1px 0 0 0 #888888, 1px 0 0 0 #888888;
+    background-color:  #222f3a;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.content {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.content__left {
+    width: 345px;
+    border: 1px solid black;
+}
+
+.content__item {
+    padding: 25px;
+    color:  #485863;
+    font-size: 25px;
+    cursor: pointer;
+}
+.content__subitem {
+    display: none;
+    padding: 25px 50px;
+    color:  #485863;
+    font-size: 25px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.content__item:hover + .content__subitem {
+    display: block;
+}
+
+.content__subitem:hover {
+    display: block;
+}
