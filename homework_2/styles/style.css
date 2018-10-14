@@ -2,7 +2,7 @@
 @import "../fonts/font.css";
 
 body {
-    background-color: #373737;
+    /*background-color: #404040;*/
     font-family: "Myriad Pro", sans-serif;
 }
 
@@ -52,11 +52,13 @@ body {
     width: 1280px;
     margin: 0 auto;
     padding: 50px 0;
+    display: table;
 }
 
 .content__left {
     width: 345px;
     border: 1px solid black;
+    display: inline-block;
 }
 
 .content__item {
@@ -80,4 +82,70 @@ body {
 
 .content__subitem:hover {
     display: block;
+}
+
+.content__right {
+    float: right;
+    width: 885px;
+}
+
+.content__image {
+    height: 530px;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content__image:hover .image {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+.image {
+    width: 30%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+
+.content__text {
+    padding: 50px 30px 0 30px;
+    word-break: break-all;
+}
+
+.footer {
+    width: 1280px;
+    background-color: grey;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    padding: 20px 40px;
+}
+
+.footer__item {
+    display: inline-block;
+    text-transform: capitalize;
+    color:  #0c1927;
+    font-size: 25px;
+    margin-left: 10px;
+    transition-duration: .5s;
+}
+
+.footer__item:hover {
+    color:  #3181a6;
+    text-decoration: underline;
+    transition-duration: .5s;
 }
