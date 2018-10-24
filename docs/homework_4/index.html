@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Homework 4</title>
+</head>
+<body>
+<header class="header">
+    <a class="logo">journey</a>
+    <nav class="menu">
+        <div class="icons">
+            <a href="#" class="icon menu__icon menu__icon_calendar"></a>
+            <a href="#" class="icon menu__icon menu__icon_forum"></a>
+            <a href="#" class="icon menu__icon menu__icon_journey"></a>
+        </div>
+        <p class="user">Welcome, <a href="#" class="login user__text">log in</a> or
+            <a href="" class="signin user__text">sign up</a></p>
+    </nav>
+</header>
+
+<div class="modal__window">
+    <div class="modal__header">
+        <a href="" class="modal__login user__text user__text_color_black">sign up</a>
+        <a href="" class="modal__login user__text user__text_modal">log in</a>
+    </div>
+    <div class="modal__social">
+        <a href="#" class="social__icon social__icon_color_blue">
+            <p class="social__img social__img_facebook"></p>
+            <p class="social__name">facebook</p>
+        </a>
+        <a href="#" class="social__icon social__icon_color_red">
+            <p class="social__img social__img_google"></p>
+            <p class="social__name">google</p>
+        </a>
+    </div>
+    <div class="divider">
+        <span class="divider__slash"></span>
+        <p class="divider__text">or</p>
+        <span class="divider__slash"></span>
+    </div>
+    <form action="" class="modal__form">
+        <input type="text" name="name" placeholder="name" class="modal__input">
+        <input type="text" name="surname" placeholder="last name" class="modal__input">
+        <input type="text" name="email" placeholder="email" class="modal__input">
+        <input type="text" name="pass" placeholder="choose password" class="modal__input">
+        <input type="text" name="passconfirm" placeholder="confirm password" class="modal__input">
+        <label for="agreement" class="modal__agreement">
+            <input type="checkbox" id="agreement" class="modal__checkbox">
+            <span class="modal__license">Agree our <a href="#" class="user__text">terms & conditions</a></span>
+        </label>
+        <input type="submit" value="create account" class="modal__submit">
+    </form>
+</div>
+
+</body>
+</html>

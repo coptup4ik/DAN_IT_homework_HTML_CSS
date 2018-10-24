@@ -1,0 +1,149 @@
+@import "reset.css";
+
+body {
+    font-family: Verdana, sans-serif;
+    background: url("../assets/background.png");
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.header__logo {
+    display: inline-block;
+    color: white;
+}
+
+.logo__text {
+    color:  #ffffff;
+
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo__text_size_large {
+    font-size: 29px;
+}
+
+.logo__text_size_small {
+    font-size: 18px;
+}
+
+.header__text {
+    float: right;
+    color: white;
+    text-align: right;
+    vertical-align: text-bottom;
+    margin-top: 10px;
+}
+
+.text {
+    color: white;
+}
+.content {
+    width: 100%;
+    color: white;
+    font-size: 0;
+}
+
+.content__item {
+    margin: 50px 50px 0 0;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.content__img {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 0, 0, 0)) 1;
+}
+
+.content__text {
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+}
+
+.content__nav {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    background-color: #f26522;
+    padding: 0 20px;
+    transform: translateY(60px);
+    transition-duration: .5s;
+    text-align: left;
+}
+
+.content__item:hover .content__nav{
+    transform: translateY(0);
+    transition-duration: .5s;
+}
+
+.nav__text_size_small {
+    font-size: 10px;
+}
+
+.nav__item {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.nav__item:last-child {
+    float: right;
+    margin-top: 20px;
+}
+
+.nav__text {
+    color: white;
+}
+
+.nav__text_arrow:after {
+    content: ">";
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.nav__text_capitalize {
+    text-transform: capitalize;
+}
+
+.content__text {
+    color: white;
+}
+
+.header__logo:hover .logo__text{
+    color:  #f26522;
+}
+
+
+.logo__img {
+    width: 46px;
+}
