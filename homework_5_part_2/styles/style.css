@@ -1,0 +1,171 @@
+@import "reset.css";
+@import "../fonts/Arimo/font.css";
+
+body {
+    font-family: Arimo, sans-serif;
+    font-size: 12px;
+    background-color: #3f3f3f;
+}
+
+.table {
+    /*width: 1140px;*/
+    margin: 0 auto;
+    font-family: Arimo,sans-serif;
+    color:  #484848;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+th,td {
+    border: 1px solid #d0d0d0;
+}
+
+.table__header {
+    height: 112px;
+    width: 157px;
+}
+
+.table__header_size {
+    width: 200px;
+}
+
+th:nth-child(even)  {
+    background-color: #e3e3e3;
+}
+
+td:nth-child(even)  {
+    background-color: #e3e3e3;
+}
+
+.btn {
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition-duration: .35s;
+}
+
+.color_black {
+    background-color:  #484848;
+}
+.color_black:hover {
+    box-shadow: 0 5px 0 #333333;
+    outline: none;
+    transition-duration: .35s;
+}
+
+
+.color_lime {
+    background-color:  #89c331;
+}
+.color_lime:hover {
+    box-shadow: 0 5px 0 #567b1f;
+    outline: none;
+    transition-duration: .35s;
+}
+
+
+
+.color_red {
+    background-color:  #f04a56;
+}
+.color_red:hover {
+    box-shadow: 0 5px 0 #972f38;
+    outline: none;
+    transition-duration: .35s;
+}
+
+.color_green {
+    background-color:  #20807c;
+}
+.color_green:hover {
+    box-shadow: 0 5px 0 #10403e;
+    outline: none;
+    transition-duration: .35s;
+}
+
+.cell_color_green {
+    background-color:  #20807c;
+}
+
+.cell_color_red {
+    background-color:  #f04a56;
+}
+
+.cell_color_lime {
+    background-color:  #89c331;
+}
+
+
+.item_size_small {
+    color:  #484848;
+    font-size: 14px
+}
+
+
+
+.item_size_large {
+    color:  #484848;
+    font-size: 20px;
+}
+
+.item_color_white {
+    color: white;
+    font-size: 24px;
+}
+
+
+.price {
+    color:  #484848;
+    padding: 20px 0;
+}
+
+.price__item_size_large {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.price__item {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.price__item_size_small {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -15px;
+}
+
+.price__item_period {
+    font-size: 14px;
+}
+
+
+.icon {
+    color:  #848484;
+    font-size: 24px;
+}
+
+.header__text {
+    font-size: 20px;
+}
+
+.item_margin {
+    margin-bottom: 15px;
+}
+
+.item_margin:last-child {
+    margin-bottom: 0;
+}

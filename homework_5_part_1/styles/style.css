@@ -1,0 +1,156 @@
+@import "reset.css";
+@import "../fonts/Arimo/font.css";
+
+body {
+    font-family: Arimo, sans-serif;
+    font-size: 12px;
+    background-color: #3f3f3f;
+}
+
+.table {
+    /*width: 1140px;*/
+    margin: 0 auto;
+    font-family: Arimo;
+    color:  #484848;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 16px;
+}
+
+th,td {
+    border: 1px solid #d0d0d0;
+    height: 70px;
+}
+
+.btn {
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition-duration: .35s;
+}
+
+.color_black {
+    background-color:  #484848;
+}
+.color_black:hover {
+    box-shadow: 0 5px 0 #333333;
+    outline: none;
+    transition-duration: .35s;
+}
+
+
+.color_lime {
+    background-color:  #89c331;
+}
+.color_lime:hover {
+    box-shadow: 0 5px 0 #567b1f;
+    outline: none;
+    transition-duration: .35s;
+}
+
+
+
+.color_red {
+    background-color:  #f04a56;
+}
+.color_red:hover {
+    box-shadow: 0 5px 0 #972f38;
+    outline: none;
+    transition-duration: .35s;
+}
+
+.color_green {
+    background-color:  #20807c;
+}
+.color_green:hover {
+    box-shadow: 0 5px 0 #10403e;
+    outline: none;
+    transition-duration: .35s;
+}
+
+.table__row:last-child td{
+    padding: 30px 40px;
+}
+
+.table__row:last-child td:hover{
+    background-color:  #dddddd;
+}
+
+
+.cell_color_green {
+    background-color:  #20807c;
+}
+
+.cell_color_red {
+    background-color:  #f04a56;
+}
+
+.cell_color_lime {
+    background-color:  #89c331;
+}
+
+
+.item_size_small {
+    color:  #484848;
+    font-size: 18px
+}
+
+.item_uppercase {
+    text-transform: uppercase;
+}
+
+.item_size_large {
+    color:  #484848;
+    font-size: 30px;
+}
+
+.item_color_white {
+    color: white;
+    font-size: 30px;
+}
+
+.table__row:nth-child(odd):not(:first-child):not(:last-child){
+    background-color:  #f2f2f2;
+}
+
+.table__row:nth-child(even):not(:nth-child(2)){
+    background-color:  #e3e3e3;
+}
+
+.price {
+    color:  #484848;
+    text-align: center;
+}
+
+.price__item_size_large {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.price__item {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: -5px;
+}
+
+.price__item_size_small {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price__item_period {
+    font-size: 18px;
+}
+
+
+.icon {
+    color:  #848484;
+}

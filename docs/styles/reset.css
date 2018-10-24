@@ -45,7 +45,7 @@ q:before, q:after {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Don't kill focus outline for keyboard users: http://24ways.org/2009/dont-lose-your-focus */
