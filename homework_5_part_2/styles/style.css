@@ -8,7 +8,6 @@ body {
 }
 
 .table {
-    /*width: 1140px;*/
     margin: 0 auto;
     font-family: Arimo,sans-serif;
     color:  #484848;
@@ -33,13 +32,10 @@ th,td {
     width: 200px;
 }
 
-th:nth-child(even)  {
+th:nth-child(even), td:nth-child(even)  {
     background-color: #e3e3e3;
 }
 
-td:nth-child(even)  {
-    background-color: #e3e3e3;
-}
 
 .btn {
     padding: 15px 50px;
@@ -57,38 +53,9 @@ td:nth-child(even)  {
 .color_black {
     background-color:  #484848;
 }
+
 .color_black:hover {
     box-shadow: 0 5px 0 #333333;
-    outline: none;
-    transition-duration: .35s;
-}
-
-
-.color_lime {
-    background-color:  #89c331;
-}
-.color_lime:hover {
-    box-shadow: 0 5px 0 #567b1f;
-    outline: none;
-    transition-duration: .35s;
-}
-
-
-
-.color_red {
-    background-color:  #f04a56;
-}
-.color_red:hover {
-    box-shadow: 0 5px 0 #972f38;
-    outline: none;
-    transition-duration: .35s;
-}
-
-.color_green {
-    background-color:  #20807c;
-}
-.color_green:hover {
-    box-shadow: 0 5px 0 #10403e;
     outline: none;
     transition-duration: .35s;
 }
@@ -111,8 +78,6 @@ td:nth-child(even)  {
     font-size: 14px
 }
 
-
-
 .item_size_large {
     color:  #484848;
     font-size: 20px;
@@ -127,7 +92,7 @@ td:nth-child(even)  {
 
 .price {
     color:  #484848;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 .price__item_size_large {
@@ -137,16 +102,13 @@ td:nth-child(even)  {
 
 .price__item {
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
 }
 
 .price__item_size_small {
     font-size: 18px;
     font-weight: 700;
-    margin-top: -12px;
+    position: relative;
+    top: -12px;
 }
 
 .price__item_period {
