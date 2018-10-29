@@ -1,5 +1,66 @@
 @import "reset.css";
 
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #373737;
 }
+
+.table {
+    background-color: white;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 0;
+    outline: 15px solid grey;
+}
+
+td {
+    outline: 4px solid grey;
+    width: 50px;
+    height: 50px;
+}
+
+.cell-4{
+    width: 100px;
+    height: 50px;
+}
+
+.cell-1 {
+    width: 250px;
+    height: 250px;
+}
+
+.cell-2 {
+    width: 101px;
+    height: 125px;
+}
+
+.cell-5 {
+    width: 100px;
+}
+
+.cell-3 {
+    width: 75px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.black {
+    background-color: black;
+}
+
+
