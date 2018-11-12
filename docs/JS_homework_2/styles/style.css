@@ -1,0 +1,89 @@
+@import "reset.css";
+
+body {
+    background-color: #373737;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 450px;
+    background-color: #81dfff;
+    padding: 0 25px;
+    border-radius: 5px;
+}
+
+.prime {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prime__input {
+    width: 30%;
+    border: 1px solid #3e7980;
+    position: relative;
+}
+
+.prime__btn {
+    width: 38%;
+    font-size: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+.prime__input:focus {
+    outline: none;
+}
+.prime__input::placeholder {
+    font-size: 10px;
+    color: #a2a2a2;
+    font-style: italic;
+}
+
+.numbers {
+    margin: 5px 0 ;
+    padding: 5px 0 ;
+    min-height: 50px;
+    border: 1px solid grey;
+    width: 100%;
+    overflow: visible;
+    resize: vertical;
+}
+
+.error .prime__input {
+    border: 2px solid red;
+}
+
+.error::after {
+    position: absolute;
+    width: 100%;
+    content: "INPUTS CAN NOT BE EMPTY AND YOU HAVE TO ENTER INTEGERS ONLY";
+    height: 100%;
+    top: 55px;
+    text-align: center;
+    left: 0;
+    color: red;
+    font-size: 10px;
+}
+
+.wrong .prime__input {
+    border: 2px solid #ff5800;
+}
+
+.wrong::after {
+    position: absolute;
+    width: 100%;
+    content: "SECOND NUMBER MUST BE HIGHER THAN FIRST";
+    height: 100%;
+    top: 55px;
+    text-align: center;
+    left: 0;
+    color: #ff5800;
+    font-size: 10px;
+}
+
