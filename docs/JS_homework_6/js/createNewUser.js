@@ -25,7 +25,7 @@ function CreateNewUser() {
     },
     getLogin : {
       get : function () {
-        return this.firstName[0] + this.lastName
+        return ( this.firstName[0] + this.lastName).toLowerCase()
       }
     }
   });
