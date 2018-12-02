@@ -1,0 +1,44 @@
+@import "reset.css";
+
+body {
+    background-color: #373737;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}
+
+
+
+.wrapper {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.form__input {
+    width: 100%;
+}
+.form__input::placeholder {
+    font-size: 10px;
+}
+
+.text {
+    background-color: #d4e8ff;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9da9bc;
+    margin-bottom: 1px;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    width: 150px;
+}
