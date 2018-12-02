@@ -1,0 +1,33 @@
+@import "reset.css";
+
+body {
+    background-color: #373737;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields__item {
+    margin:5px 0;
+}
+
+.btn {
+    width: 200px;
+    margin: 10px auto;
+    display: none;
+}
+
+.list {
+    background-color: white;
+    padding: 20px;
+    list-style-type: circle;
+}
