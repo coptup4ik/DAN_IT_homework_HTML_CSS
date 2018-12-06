@@ -1,0 +1,8 @@
+@import "reset.css";
+
+body {
+    background-color: #373737;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+}
