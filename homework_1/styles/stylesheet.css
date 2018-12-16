@@ -60,7 +60,7 @@ body {
     font-size: 16px;
 }
 
-.content_btn {
+.content-btn {
     border-radius: 3px;
     background-color: #16a085;
     border: none;
@@ -72,11 +72,11 @@ body {
     cursor: pointer;
 }
 
-.content_btn:active {
+.content-btn:active {
     transform: scale(.95);
 }
 
-.content_btn:focus {
+.content-btn:focus {
     outline: none;
 }
 
