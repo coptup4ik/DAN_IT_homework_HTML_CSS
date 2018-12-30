@@ -23,11 +23,11 @@ function masonryGallery() {
       itemSelector: '.grid-item',
       percentPosition: true
     })
-  })
+  });
 
 
   function generatePreloader(callback) {
-    let preloader = $(`<img src=./assets/img/preloader.gif/>`)
+    let preloader = $(`<img src=./assets/img/preloader.gif/ alt=picture>`)
     .css({
 
     'position'      : 'absolute',

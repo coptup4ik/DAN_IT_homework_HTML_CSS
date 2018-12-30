@@ -152,17 +152,19 @@ function userSlider() {
     }
   });
 
-  //генерируем hover.
+  // генерируем hover.
   document.body.addEventListener('mouseover',(e)=>{
     if (e.target.className === 'list-img') {
       let item = e.target.closest('li');
-      item.style.transform += 'scale(1.1) translateY(-10px)'
+      item.style.top = '-10px';
+      // item.style.transform += 'scale(1.1) translateY(-10px)'
     }
   });
   document.body.addEventListener('mouseout',(e)=>{
       if (e.target.className === 'list-img') {
         let item = e.target.closest('li');
-        item.style.transform = `translateX(${new WebKitCSSMatrix(getComputedStyle(item).transform).m41}px) scale(1) translateY(0)`
+        item.style.top = '0';
+        // item.style.transform = `translateX(${new WebKitCSSMatrix(getComputedStyle(item).transform).m41}px) scale(1) translateY(0)`
       }
     })
 }
