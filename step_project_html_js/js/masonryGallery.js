@@ -27,7 +27,7 @@ function masonryGallery() {
 
 
   function generatePreloader(callback) {
-    let preloader = $(`<img src=./assets/img/preloader.gif/ alt=picture>`)
+    let preloader = $(`<img src=./assets/img/preloader.gif alt=picture>`)
     .css({
 
     'position'      : 'absolute',

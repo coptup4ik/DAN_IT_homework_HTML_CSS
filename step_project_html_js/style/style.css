@@ -10,13 +10,9 @@ body {
 
 .header {
     position: absolute;
-    height: 120px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.31);
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .content_wrapper {
@@ -283,6 +279,7 @@ body {
 }
 
 .first-content_button:hover:after {
+    content: "";
     position: absolute;
     background-color: #18cfab;
     width: 15px;
@@ -290,7 +287,6 @@ body {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 50%) rotate(45deg) scale(1);
-    content: "";
     transition-duration: .25s;
 }
 
@@ -788,6 +784,7 @@ body {
     width: 33.333333%;
     overflow: hidden;
     padding: 10px;
+    display: inline-block;
 }
 
 .grid-item img:hover {
@@ -805,6 +802,8 @@ body {
 .grid-item--height2 {
     height: 350px;
 }
+
+
 
 /*---------------------------------*/
 
